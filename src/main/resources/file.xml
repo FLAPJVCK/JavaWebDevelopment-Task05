@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medicines>
+    <medicine name="Нурофен" pharm="Рекитт Бенкизер" group="обезболивающее">
+        <analogs>
+            <analog>Цитрамон</analog>
+            <analog>Парацетамол</analog>
+        </analogs>
+        <versions>
+            <version>Таблетки</version>
+            <version>Порошок</version>
+        </versions>
+        <certificate number="4" issueDate="1574240745049" expiryDate="1574240745049" organization="EPAM Systems"/>
+        <package type="Таблетки" quantity="10" price="15.0"/>
+        <dosage amount="1" period="3"/>
+    </medicine>
+    <medicine name="Ингавирин" pharm="Рекитт Бенкизер" group="обезболивающее">
+        <analogs>
+            <analog>Цитрамон</analog>
+            <analog>Парацетамол</analog>
+        </analogs>
+        <versions>
+            <version>Таблетки</version>
+            <version>Порошок</version>
+        </versions>
+        <certificate number="4" issueDate="1574240745049" expiryDate="1574240745049" organization="EPAM Systems"/>
+        <package type="Таблетки" quantity="10" price="10.0"/>
+        <dosage amount="1" period="3"/>
+    </medicine>
+    <medicine name="Цитрамон" pharm="Рекитт Бенкизер" group="обезболивающее">
+        <analogs>
+            <analog>Нурофен</analog>
+            <analog>Парацетамол</analog>
+        </analogs>
+        <versions>
+            <version>Таблетки</version>
+            <version>Порошок</version>
+        </versions>
+        <certificate number="4" issueDate="1574240745049" expiryDate="1574240745049" organization="EPAM Systems"/>
+        <package type="Порошок" quantity="10" price="25.0"/>
+        <dosage amount="13" period="2"/>
+    </medicine>
+</medicines>
+
+
