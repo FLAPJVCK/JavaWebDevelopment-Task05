@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Medicine</title>
+    <title>Bank</title>
 </head>
 <body>
 </h1>

@@ -9,31 +9,31 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-    <title>List of medicines</title>
+    <title>List of banks</title>
 </head>
 <body>
 <section>
     <table>
         <tr>
-            <th>Название</th>
-            <th>Производитель</th>
-            <th>Группа</th>
-            <th>Аналоги</th>
-            <th>Вариации</th>
-            <th>Сертификат</th>
-            <th>Упаковка</th>
-            <th>Дозировка</th>
+            <th style="padding-left: 30px;padding-right: 30px;">Bank's name</th>
+            <th style="padding-left: 30px;padding-right: 30px;">Country of registration</th>
+            <th style="padding-left: 30px;padding-right: 30px;">Deposit type</th>
+            <th style="padding-left: 30px;padding-right: 30px;">Depositor's name</th>
+            <th style="padding-left: 30px;padding-right: 30px;">Account number</th>
+            <th style="padding-left: 30px;padding-right: 30px;">Deposit amount</th>
+            <th style="padding-left: 30px;padding-right: 30px;">Annual Percentage</th>
+            <th style="padding-left: 30px;padding-right: 30px;">Deposit term</th>
         </tr>
-        <c:forEach var="item" items="${medicines}">
-            <tr>
+        <c:forEach var="item" items="${banks}">
+            <tr style="text-align: center;">
                 <td><c:out value="${item.getName()}"/></td>
-                <td><c:out value="${item.getPharm()}"/></td>
-                <td><c:out value="${item.getGroup()}"/></td>
-                <td><c:out value="${item.getAnalogs()}"/>
-                    <c:forEach var="item" items="${item.getAnalogs()}">
-                        ${item},
-                    </c:forEach>
-                </td>
+                <td><c:out value="${item.getCountry()}"/></td>
+                <td><c:out value="${item.getType()}"/></td>
+                <td><c:out value="${item.getDepositor()}"/></td>
+                <td><c:out value="${item.getAccountId()}"/></td>
+                <td><c:out value="${item.getAmountOnDeposit()}"/></td>
+                <td><c:out value="${item.getProfitability()}"/></td>
+                <td><c:out value="${item.getTimeConstrains()}"/></td>
             </tr>
         </c:forEach>
     </table>

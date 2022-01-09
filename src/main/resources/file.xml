@@ -1,44 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<medicines>
-    <medicine name="Нурофен" pharm="Рекитт Бенкизер" group="обезболивающее">
-        <analogs>
-            <analog>Цитрамон</analog>
-            <analog>Парацетамол</analog>
-        </analogs>
-        <versions>
-            <version>Таблетки</version>
-            <version>Порошок</version>
-        </versions>
-        <certificate number="4" issueDate="1574240745049" expiryDate="1574240745049" organization="EPAM Systems"/>
-        <package type="Таблетки" quantity="10" price="15.0"/>
-        <dosage amount="1" period="3"/>
-    </medicine>
-    <medicine name="Ингавирин" pharm="Рекитт Бенкизер" group="обезболивающее">
-        <analogs>
-            <analog>Цитрамон</analog>
-            <analog>Парацетамол</analog>
-        </analogs>
-        <versions>
-            <version>Таблетки</version>
-            <version>Порошок</version>
-        </versions>
-        <certificate number="4" issueDate="1574240745049" expiryDate="1574240745049" organization="EPAM Systems"/>
-        <package type="Таблетки" quantity="10" price="10.0"/>
-        <dosage amount="1" period="3"/>
-    </medicine>
-    <medicine name="Цитрамон" pharm="Рекитт Бенкизер" group="обезболивающее">
-        <analogs>
-            <analog>Нурофен</analog>
-            <analog>Парацетамол</analog>
-        </analogs>
-        <versions>
-            <version>Таблетки</version>
-            <version>Порошок</version>
-        </versions>
-        <certificate number="4" issueDate="1574240745049" expiryDate="1574240745049" organization="EPAM Systems"/>
-        <package type="Порошок" quantity="10" price="25.0"/>
-        <dosage amount="13" period="2"/>
-    </medicine>
-</medicines>
+<banks>
+    <bank bankID="1">
+        <name>Belarusbank</name>
+        <country>Belarus</country>
+        <type>ACCUMULATIVE</type>
+        <depositor>Stepan Ivanovich</depositor>
+        <accountId>2346GSDG34HKF345</accountId>
+        <amountOnDeposit>1500</amountOnDeposit>
+        <profitability>4.7</profitability>
+        <timeConstrains>1843623525426</timeConstrains>
+    </bank>
+    <bank bankID="2">
+        <name>Belagroprombank</name>
+        <country>Belarus</country>
+        <type>TERM</type>
+        <depositor>Alexey Ivanovich</depositor>
+        <accountId>234HK456F345</accountId>
+        <amountOnDeposit>1505470</amountOnDeposit>
+        <profitability>6.2</profitability>
+        <timeConstrains>1734238524526</timeConstrains>
+    </bank>
+    <bank bankID="3">
+        <name>MTBank</name>
+        <country>Belarus</country>
+        <type>SETTLEMENT</type>
+        <depositor>Petr Ivanovich</depositor>
+        <accountId>234HK456F345</accountId>
+        <amountOnDeposit>1567500</amountOnDeposit>
+        <profitability>2.5</profitability>
+        <timeConstrains>1834233524526</timeConstrains>
+    </bank>
+    <bank bankID="4">
+        <name>Paritetbank</name>
+        <country>Belarus</country>
+        <type>SAVINGS</type>
+        <depositor>Dmitriy Ivanovich</depositor>
+        <accountId>234HKF345</accountId>
+        <amountOnDeposit>5671500</amountOnDeposit>
+        <profitability>8.5</profitability>
+        <timeConstrains>1732356243526</timeConstrains>
+    </bank>
+    <bank bankID="5">
+        <name>Sberbank</name>
+        <country>Belarus</country>
+        <type>METAL</type>
+        <depositor>Alexey Ivanovich</depositor>
+        <accountId>234HKF345</accountId>
+        <amountOnDeposit>6571500</amountOnDeposit>
+        <profitability>11.0</profitability>
+        <timeConstrains>1832375324526</timeConstrains>
+    </bank>
+    <bank bankID="6">
+        <name>BTA Bank</name>
+        <country>Belarus</country>
+        <type>DEMAND</type>
+        <depositor>Sergey Ivanovich</depositor>
+        <accountId>234HKF345</accountId>
+        <amountOnDeposit>1568500</amountOnDeposit>
+        <profitability>3.3</profitability>
+        <timeConstrains>1932425224526</timeConstrains>
+    </bank>
+    <bank bankID="7">
+        <name>Sberbank</name>
+        <country>Belarus</country>
+        <type>SETTLEMENT</type>
+        <depositor>Elena Ivanovich</depositor>
+        <accountId>23WE4HKF345</accountId>
+        <amountOnDeposit>5678</amountOnDeposit>
+        <profitability>2.1</profitability>
+        <timeConstrains>1834365248526</timeConstrains>
+    </bank>
+    <bank bankID="8">
+        <name>Paritetbank</name>
+        <country>Belarus</country>
+        <type>METAL</type>
+        <depositor>Ann Ivanovich</depositor>
+        <accountId>2234GHH34HKF345</accountId>
+        <amountOnDeposit>567</amountOnDeposit>
+        <profitability>6.7</profitability>
+        <timeConstrains>1834335264526</timeConstrains>
+    </bank>
+    <bank bankID="9">
+        <name>Belarusbank</name>
+        <country>Belarus</country>
+        <type>ACCUMULATIVE</type>
+        <depositor>Stepan Ivanovich</depositor>
+        <accountId>2346GSDG34HKF345</accountId>
+        <amountOnDeposit>1500</amountOnDeposit>
+        <profitability>4.7</profitability>
+        <timeConstrains>1834232457426</timeConstrains>
+    </bank>
+    <bank bankID="10">
+        <name>Belagroprombank</name>
+        <country>Belarus</country>
+        <type>TERM</type>
+        <depositor>Alexey Ivanovich</depositor>
+        <accountId>234HK456F345</accountId>
+        <amountOnDeposit>1505470</amountOnDeposit>
+        <profitability>6.2</profitability>
+        <timeConstrains>1734523245526</timeConstrains>
+    </bank>
+    <bank bankID="11">
+        <name>MTBank</name>
+        <country>Belarus</country>
+        <type>SETTLEMENT</type>
+        <depositor>Petr Ivanovich</depositor>
+        <accountId>234HK456F345</accountId>
+        <amountOnDeposit>1567500</amountOnDeposit>
+        <profitability>2.5</profitability>
+        <timeConstrains>1934233524526</timeConstrains>
+    </bank>
+    <bank bankID="12">
+        <name>Paritetbank</name>
+        <country>Belarus</country>
+        <type>SAVINGS</type>
+        <depositor>Dmitriy Ivanovich</depositor>
+        <accountId>234HKF345</accountId>
+        <amountOnDeposit>5671500</amountOnDeposit>
+        <profitability>8.5</profitability>
+        <timeConstrains>1834256254526</timeConstrains>
+    </bank>
+    <bank bankID="13">
+        <name>Sberbank</name>
+        <country>Belarus</country>
+        <type>METAL</type>
+        <depositor>Alexey Ivanovich</depositor>
+        <accountId>234HKF345</accountId>
+        <amountOnDeposit>6571500</amountOnDeposit>
+        <profitability>11.0</profitability>
+        <timeConstrains>1934354324526</timeConstrains>
+    </bank>
+    <bank bankID="14">
+        <name>BTA Bank</name>
+        <country>Belarus</country>
+        <type>DEMAND</type>
+        <depositor>Sergey Ivanovich</depositor>
+        <accountId>234HKF345</accountId>
+        <amountOnDeposit>1568500</amountOnDeposit>
+        <profitability>3.3</profitability>
+        <timeConstrains>1934352245926</timeConstrains>
+    </bank>
+    <bank bankID="15">
+        <name>Sberbank</name>
+        <country>Belarus</country>
+        <type>SETTLEMENT</type>
+        <depositor>Elena Ivanovich</depositor>
+        <accountId>23WE4HKF345</accountId>
+        <amountOnDeposit>5678</amountOnDeposit>
+        <profitability>2.1</profitability>
+        <timeConstrains>1832350248526</timeConstrains>
+    </bank>
+    <bank bankID="16">
+        <name>Paritetbank</name>
+        <country>Belarus</country>
+        <type>METAL</type>
+        <depositor>Ann Ivanovich</depositor>
+        <accountId>2234GHH34HKF345</accountId>
+        <amountOnDeposit>567</amountOnDeposit>
+        <profitability>6.7</profitability>
+        <timeConstrains>1934352694526</timeConstrains>
+    </bank>
+
+</banks>
 
 
