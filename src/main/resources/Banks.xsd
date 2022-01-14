@@ -14,7 +14,7 @@
                             <xs:element type="xs:string" name="accountId"/>
                             <xs:element type="xs:float" name="amountOnDeposit"/>
                             <xs:element type="xs:float" name="profitability"/>
-                            <xs:element type="xs:date" name="timeConstrains"/>
+                            <xs:element type="xs:long" name="timeConstrains"/>
                         </xs:sequence>
                         <xs:attribute type="xs:byte" name="bankID"/>
                     </xs:complexType>
